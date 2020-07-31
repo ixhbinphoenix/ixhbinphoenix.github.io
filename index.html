@@ -2,11 +2,6 @@
 <html>
     <head>
         <title>Phoenix test page</title>
-        <script>
-            scroll = function getFocus(arg) {
-                document.getElementById(arg).scrollIntoView(true);
-            }
-        </script>
     </head>
     <body>
         <!--Title-->
@@ -15,8 +10,8 @@
         </div>
         <!--Buttons-->
         <div class="TopButtons">
-            <button class="TopButton" type="button" onclick="scroll('Projects')">Projects</button>
-            <button class="TopButton" type="button" onclick="scroll('Links')">Links</button>
+            <button class="TopButton" type="button" onclick="document.getElementById('Projects').scrollIntoView(true); ">Projects</button>
+            <button class="TopButton" type="button" onclick="document.getElementById('Links').scrollIntoView(true); ">Links</button>
         </div>
 
         <p class="SmallTitle" id="Projects">Projects</p>
