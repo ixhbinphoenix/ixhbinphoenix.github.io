@@ -4,7 +4,7 @@
   "description": "ixhbinphoenix's github page",
   "main": "",
   "scripts": {
-    "build": "npx tsc -b tsconfig.json && npx scss src/:dist/"
+    "build": "npx tsc -b tsconfig.json && npx sass src/:dist/"
   },
   "repository": {
     "type": "git",
